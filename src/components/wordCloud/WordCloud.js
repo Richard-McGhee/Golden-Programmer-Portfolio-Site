@@ -3,7 +3,12 @@ import useWindowDimensions from './WindowDimensions'
 
 function WordCloud() {
     // I'll have my skills randomly generate to form a wordcloud with
-    const [skills, setSkills] = useState([{word: "Place", weight: 0.003}, {word: "Holder", weight: 0.0038}, {word: "and", weight: 0.0005}, {word: "Testing", weight: 0.00375}])
+    const [skills, setSkills] = useState([
+        {word: "Place", weight: 0.003}, 
+        {word: "Holder", weight: 0.0038}, 
+        {word: "and", weight: 0.0005}, 
+        {word: "Testing", weight: 0.00375}
+    ])
     // This effect will be used for rendering the cloud and changing it based on the skills state ... maybe not
     // useEffect(() =>{
 
