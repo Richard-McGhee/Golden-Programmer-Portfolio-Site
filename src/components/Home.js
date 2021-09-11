@@ -1,10 +1,11 @@
 import React from 'react'
+import WordCloud from './wordCloud/WordCloud'
 
 function Home() {
 
     
     return ( 
-        <h1>Placeholder</h1>
+        <WordCloud />
      );
 }
 
