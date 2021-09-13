@@ -1,0 +1,64 @@
+.wordCloud {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* This may change later if I find a nicer font, maybe something with gold in the name  */
+    font-family: sans-serif;
+    height: 700px;
+    padding-top: 2rem;
+}
+
+.wordCloud div {
+    position: relative;
+    animation: enter 3s ease-in-out pulse 3s ease-in-out infinite;
+    /* This may change later if I find a nicer font, maybe something with gold in the name  */
+    font-family: "Indie Flower", cursive;
+    animation-fill-mode: forwards;
+    transition-timing-function: cubic-bezier(0.5, 1.5, 1.5, 1, 0.5);
+    opacity: 0;
+    padding: -2rem 1rem;
+}
+
+.wordCloud div:nth-child(n) {
+    transform: rotate(45deg);
+}
+.wordCloud div:nth-child(2n) {
+    transform: rotate(-40deg);
+}
+.wordCloud div:nth-child(3n) {
+    transform: rotate(-90deg);
+}
+.wordCloud div:nth-child(4n) {
+    transform: rotate(120deg);
+}
+.wordCloud div:nth-child(5n) {
+    transform: rotate(345deg);
+}
+.wordCloud div:nth-child(6n) {
+    transform: rotate(20deg);
+}
+.wordCloud div:nth-child(7n) {
+    transform: rotate(240deg);
+}
+
+/* Media Queries */
+
+@keyframes enter {
+    100% {
+        left: 0;
+        opacity: 1;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .word-cloud {
+        height: 70%;
+        width: 95%;
+    }
+}

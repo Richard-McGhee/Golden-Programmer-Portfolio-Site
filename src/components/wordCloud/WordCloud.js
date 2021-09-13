@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import useWindowDimensions from './WindowDimensions'
+import "./WordCloud.css"
 
 function WordCloud() {
     // I'll have my skills randomly generate to form a wordcloud with
