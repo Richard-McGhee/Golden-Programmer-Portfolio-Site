@@ -10,3 +10,5 @@ I've got some design sketches made and I've had my friend help me look over them
 
 For WordCloud specifically, I need to think of how exactly I want my skills array to be generated so I can set it up properly. Really wanting to decide if I wanna pass props or just generate locally in that component.
 I could maybe make a form or something that lets me generate skills that add to my skills wordCloud.
+
+New idea: I could maybe make a personality or casual page that talks about me personally or something like that to help employers see a more personal side of me, possibly could help with interviews.
