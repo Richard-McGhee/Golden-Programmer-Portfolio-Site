@@ -13,7 +13,24 @@ function Experience() {
     ]
     return ( 
         <div>
-            <h1>Placeholder</h1>
+            <h1>Private Experience</h1>
+            {pvtExp.map(exp => (
+                <div>
+                    <div>Company: {exp.Company}</div>
+                    <div>Title: {exp.Title}</div>
+                    <div>Dates: {exp.Dates}</div>
+                    <div>- {exp.Job} <br /> - {exp.Job2}</div><br />
+                </div>
+            ))}
+            <br />
+            <h1>Military Experience</h1>
+            {mltryExp.map(exp => (
+                <div>
+                    <div>Job: {exp.USMC}</div>
+                    <div>Title: {exp.Title}</div>
+                    <div>- {exp.Job}<br />- {exp.Job2}<br />- {exp.Job3}</div><br />
+                </div>
+            ))}
             {/* <WordCloud /> */}
         </div>
      );
