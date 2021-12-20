@@ -5,7 +5,7 @@ import "./WordCloud.css"
 function WordCloud() {
     // I'll have my skills randomly generate to form a wordcloud with
     const [skills, setSkills] = useState([
-        {word: "Place", weight: 0.003}, 
+        {word: "Place", weight: 0.03}, 
         {word: "Holder", weight: 0.0038}, 
         {word: "and", weight: 0.0005}, 
         {word: "Testing", weight: 0.00375}
