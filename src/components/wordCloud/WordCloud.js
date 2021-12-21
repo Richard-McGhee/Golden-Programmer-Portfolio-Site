@@ -1,19 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import useWindowDimensions from './WindowDimensions'
 import "./WordCloud.css"
 
 function WordCloud() {
     // I'll have my skills randomly generate to form a wordcloud with
-    const [skills, setSkills] = useState([
-        {word: "Place", weight: 0.03}, 
-        {word: "Holder", weight: 0.0038}, 
-        {word: "and", weight: 0.0005}, 
-        {word: "Testing", weight: 0.00375}
-    ])
-    // This effect will be used for rendering the cloud and changing it based on the skills state ... maybe not
-    // useEffect(() =>{
-
-    // })
+    const skills = [
+        {word: "JavaScript", weight: 0.03}, 
+        {word: "React/Redux", weight: 0.0038}, 
+        {word: "HTML", weight: 0.0005}, 
+        {word: "CSS", weight: 0.00375},
+        {word: "Git", weight: 0.00315},
+        {word: "Github", weight: 0.00315},
+        {word: "Netlify", weight: 0.00315},
+        {word: "NodeJS", weight: 0.00315},
+        {word: "Jest", weight: 0.00315},
+        {word: "Cypress", weight: 0.00315},
+        {word: "Python", weight: 0.00315},
+        {word: "PostgresSQL", weight: 0.00315},
+        {word: "SQLite", weight: 0.00315},
+        {word: "Heroku", weight: 0.00315}
+    ]
 
     function shuffle(arr) {
         let currentIndex = arr.length,  randomIndex

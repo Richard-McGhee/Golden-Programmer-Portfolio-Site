@@ -5,7 +5,13 @@ function Home() {
 
     
     return ( 
-        <WordCloud />
+        <div>
+            <h1>Home</h1>
+            <h2>Richard McGhee</h2>
+            <h1>Richard McGhee</h1>
+            <div className="bioDiv">Hello, I'm Richard McGhee. I'm a web developer who is passionate about security and the advancement of user friendly technology in all spectra. I have a passion for fitness, science, and knowledge. There's always something new to learn!</div>
+            <WordCloud />
+        </div>
      );
 }
 

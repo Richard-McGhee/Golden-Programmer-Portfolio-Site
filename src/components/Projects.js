@@ -13,6 +13,8 @@ function Projects() {
     return ( 
         <div>
             <h1>Projects</h1>
+            <h2>Richard McGhee</h2>
+            <h1>Projects</h1>
             {myProjects.map(proj => (
                 <div>
                     <div>Company: {proj.Company}</div>

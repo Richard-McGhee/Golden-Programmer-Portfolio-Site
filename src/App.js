@@ -7,8 +7,7 @@ import Experience from './components/Experience'
 
 function App() {
   return (
-    <div className="App">
-      <Home />        
+    <div className="App">       
       <nav>
         <Link to="/" className="navLinks">Home</Link>
         <Link to="/projects" className="navLinks">Projects</Link>
