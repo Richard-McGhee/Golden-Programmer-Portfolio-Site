@@ -1,5 +1,5 @@
 import React from 'react'
-import WordCloud from './wordCloud/WordCloud'
+// import WordCloud from './wordCloud/WordCloud'
 
 function Experience() {
     const pvtExp = [
