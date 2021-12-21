@@ -12,7 +12,26 @@ function Projects() {
     ]
     return ( 
         <div>
-            <h1>Placeholder</h1>
+            <h1>Projects</h1>
+            {myProjects.map(proj => (
+                <div>
+                    <div>Company: {proj.Company}</div>
+                    <div>Title: {proj.Title}</div>
+                    <div>Position: {proj.Position}</div>
+                    <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                    <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
+                </div>
+            ))}
+            <h1>In Progress</h1>
+            {inProgress.map(proj => (
+                <div>
+                    <div>Company: {proj.Company}</div>
+                    <div>Title: {proj.Title}</div>
+                    <div>Position: {proj.Position}</div>
+                    <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                    <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
+                </div>
+            ))}
         </div>
     )
 }
