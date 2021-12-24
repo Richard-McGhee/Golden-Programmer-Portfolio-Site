@@ -18,7 +18,7 @@
     position: relative;
     animation: enter 3s ease-in-out pulse 3s ease-in-out infinite;
     /* This may change later if I find a nicer font, maybe something with gold in the name  */
-    font-family: "Indie Flower", cursive;
+    font-family: 'Goldman', cursive;
     animation-fill-mode: forwards;
     transition-timing-function: cubic-bezier(0.5, 1.5, 1.5, 1, 0.5);
     opacity: 1;

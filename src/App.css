@@ -1,15 +1,17 @@
 .App {
   text-align: center;
+  font-family: 'Goldman', cursive;
 }
 
 a{
   text-decoration: none;
+  margin: auto 2%;
 }
 
 nav {
   width: 25%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: auto;
 }
 
