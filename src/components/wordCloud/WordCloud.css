@@ -9,8 +9,9 @@
     gap: 20px;
     /* This may change later if I find a nicer font, maybe something with gold in the name  */
     font-family: sans-serif;
-    height: 700px;
+    height: 60vh;
     padding-top: 2rem;
+    border: 2px solid red;
 }
 
 .wordCloud div {

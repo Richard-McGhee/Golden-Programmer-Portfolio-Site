@@ -5,9 +5,9 @@ import "./WordCloud.css"
 function WordCloud() {
     // I'll have my skills randomly generate to form a wordcloud with
     const skills = [
-        {word: "JavaScript", weight: 0.03}, 
-        {word: "React/Redux", weight: 0.0038}, 
-        {word: "HTML", weight: 0.0005}, 
+        {word: "JavaScript", weight: 0.02}, 
+        {word: "React/Redux", weight: 0.02}, 
+        {word: "HTML", weight: 0.00375}, 
         {word: "CSS", weight: 0.00375},
         {word: "Git", weight: 0.00315},
         {word: "Github", weight: 0.00315},
