@@ -2,7 +2,51 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ProjectStyles = styled.div`
-
+    .titleDiv{
+        width: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;   
+    }
+    .projTitles{
+        font-weight: bold;  
+    }
+    .bigWrapper{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .projDiv, .inProgDiv{
+        font-size: 1.5rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 60%;
+        /* border: 2px solid red; */
+    }
+    .projDiv a, .inProgDiv a{
+        margin: 0 auto;
+        display: flex;
+        border: 2px dashed black;
+        align-items: center;
+        justify-content: center;
+    }
+    .projectH1, .inProgH1{
+        margin: 20px auto;
+        width: 30%;
+        border: 2px solid whitesmoke;
+    }
+    p{
+        margin: 0 auto 1% auto;
+        padding: 25px 0;
+        width: 60%;
+        font-size: 2rem;
+        text-align: center;
+        border: 2px dotted whitesmoke;
+    }
 `
 
 function Projects() {
@@ -22,25 +66,32 @@ function Projects() {
                 <h2>Richard McGhee</h2>
             </div>
             <h1 className="projectH1">Projects</h1>
-            {myProjects.map(proj => (
-                <div className="projDiv">
-                    <div className="projTitles">Company: {proj.Company}</div>
-                    <div className="projTitles">Title: {proj.Title}</div>
-                    <div>Position: {proj.Position}</div>
-                    <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
-                    <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
-                </div>
-            ))}
-            <h1>In Progress</h1>
-            {inProgress.map(proj => (
-                <div className="inProgDiv">
-                    <div className="projTitles">Company: {proj.Company}</div>
-                    <div className="projTitles">Title: {proj.Title}</div>
-                    <div>Position: {proj.Position}</div>
-                    <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
-                    <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
-                </div>
-            ))}
+            <p className="projIntro">
+                Some personal and professional projects I've built or am working on.< br/> Take a look at the work I've put in on some unique projects.
+            </p>
+            <div className="bigWrapper">
+                {myProjects.map(proj => (
+                    <div className="projDiv">
+                        <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
+                        <div className="projTitles">Company: {proj.Company}</div>
+                        <div className="projTitles">Title: {proj.Title}</div>
+                        <div>Position: {proj.Position}</div>
+                        <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                    </div>
+                ))}
+            </div>
+            <h1 className="inProgH1">In Progress</h1>
+            <div className="bigWrapper">
+                {inProgress.map(proj => (
+                    <div className="inProgDiv">
+                        <a href={proj.Link} className="projLinks">Link to Project if Applicable<br /></a><br />
+                        <div className="projTitles">Company: {proj.Company}</div>
+                        <div className="projTitles">Title: {proj.Title}</div>
+                        <div>Position: {proj.Position}</div>
+                        <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                    </div>
+                ))}
+            </div>
         </ProjectStyles>
     )
 }

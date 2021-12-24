@@ -5,7 +5,12 @@
 
 a{
   text-decoration: none;
-  margin: auto 2%;
+  margin-right: 3%;
+  margin-top: 2%;
+  color: wheat;
+}
+a:hover{
+  color: #D3C422;
 }
 
 nav {
