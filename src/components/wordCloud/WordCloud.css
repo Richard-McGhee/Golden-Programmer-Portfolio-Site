@@ -20,7 +20,7 @@
     font-family: "Indie Flower", cursive;
     animation-fill-mode: forwards;
     transition-timing-function: cubic-bezier(0.5, 1.5, 1.5, 1, 0.5);
-    opacity: 0;
+    opacity: 1;
     padding: -2rem 1rem;
 }
 
