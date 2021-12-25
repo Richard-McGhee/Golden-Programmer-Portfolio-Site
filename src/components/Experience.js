@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const ExperienceStyles = styled.div`
     .titleDiv{
@@ -15,12 +15,12 @@ const ExperienceStyles = styled.div`
         width: 60%;
         font-size: 2rem;
         text-align: center;
-        border: 2px dotted whitesmoke;
+        border: 2px dotted #F1FFFA;
     }
     .expH1{
         margin: 20px auto;
         width: 30%;
-        border: 2px solid whitesmoke;
+        border: 2px solid #F1FFFA;
     }
     .pvtExpDiv, .mltryExpDiv{
         font-size: 1.5rem;

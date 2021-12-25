@@ -3,14 +3,18 @@
   font-family: 'Goldman', cursive;
 }
 
+h1, h2{
+  color: #D3C422;
+}
+
 a{
   text-decoration: none;
   margin-right: 3%;
   margin-top: 2%;
-  color: wheat;
+  color: #C8A659;
 }
 a:hover{
-  color: #D3C422;
+  color: #93032E;
 }
 
 nav {
