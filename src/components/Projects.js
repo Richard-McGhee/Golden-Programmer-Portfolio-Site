@@ -40,7 +40,6 @@ const ProjectStyles = styled.div`
         align-items: flex-start;
         justify-content: center;
         width: 100%;
-        border: 2px solid red;
         margin: 2% auto;
     }
     .projDiv a, .inProgDiv a{

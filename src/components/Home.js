@@ -3,7 +3,7 @@ import WordCloud from './wordCloud/WordCloud'
 import styled from 'styled-components';
 import me from '../assets/me.jpg'
 import gold from '../assets/Gold.avif'
-import p1x1 from '../assets/Placeholder1x1.png'
+import progBall from '../assets/ProgrammingBall.jpg'
 
 const HomeStyles = styled.div`
     .titleDiv{
@@ -43,7 +43,7 @@ function Home() {
             <div className="homeImgs">
                 <img src={me} alt="Me in a red shirt" />
                 <img src={gold} alt="Bars of Gold" />
-                <img src={p1x1} alt="Placeholder" />
+                <img src={progBall} alt="A crystal ball over keyboard keys" />
             </div>
             <WordCloud />
         </HomeStyles>
