@@ -54,7 +54,10 @@ function Experience() {
                     <div className="expTitles">Company: {exp.Company}</div>
                     <div className="expTitles">Title: {exp.Title}</div>
                     <div>Dates: {exp.Dates}</div>
-                    <div>- {exp.Job} <br /> - {exp.Job2}</div><br />
+                    <div>- {exp.Job} <br /> - {exp.Job2}</div>
+                    {exp.Job3 ? <div>- {exp.Job3}<br /></div> : null}
+                    {exp.Job4 ? <div>- {exp.Job4}<br /></div> : null}
+                    <br/>
                 </div>
             ))}
             <br />
@@ -63,7 +66,10 @@ function Experience() {
                 <div className="mltryExpDiv">
                     <div className="expTitles">Job: {exp.USMC}</div>
                     <div className="expTitles">Title: {exp.Title}</div>
-                    <div>- {exp.Job}<br />- {exp.Job2}<br />- {exp.Job3}</div><br />
+                    <div>- {exp.Job}<br />- {exp.Job2}<br />- {exp.Job3}</div>
+                    {exp.Job4 ? <div>- {exp.Job4}<br /></div> : null}
+                    {exp.Job5 ? <div>- {exp.Job5}<br /></div> : null}
+                    <br />
                 </div>
             ))}
         </ExperienceStyles>

@@ -93,7 +93,9 @@ function Projects() {
                             <div className="projTitles">Company: {proj.Company}</div>
                             <div className="projTitles">Title: {proj.Title}</div>
                             <div>Position: {proj.Position}</div>
-                            <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                            <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div>
+                            {proj.Bullet4 ? <div>- {proj.Bullet4}<br /></div> : null}
+                            {proj.Bullet5 ? <div>- {proj.Bullet5}<br /></div>: null}
                         </div>
                     </div>
                 ))}
@@ -108,7 +110,9 @@ function Projects() {
                             <div className="projTitles">Company: {proj.Company}</div>
                             <div className="projTitles">Title: {proj.Title}</div>
                             <div>Position: {proj.Position}</div>
-                            <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div><br />
+                            <div>- {proj.Bullet}<br />- {proj.Bullet2}<br />- {proj.Bullet3}<br /></div>
+                            {proj.Bullet4 ? <div>- {proj.Bullet4}<br /></div> : null}
+                            {proj.Bullet5 ? <div>- {proj.Bullet5}<br /></div>: null}
                         </div>
                     </div>
                 ))}

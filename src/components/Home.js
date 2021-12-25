@@ -22,10 +22,13 @@ const HomeStyles = styled.div`
         font-size: 1.4rem;
     }
     .homeImgs{
+        margin: 0 auto;
+        width: 40%;
+        border: 5px dashed #93032E;
     }
     .homeImgs img{
         height: 20vh;
-        margin: 0 0 1% 2%;
+        margin: 1.5% 0 1% 2%;
     }
 `
 
