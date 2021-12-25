@@ -71,8 +71,8 @@ function Projects() {
         {Company: "Personal", Title: "React Redux Template", Position: "Front End Developer", Bullet: "A template for React projects using Redux, React Router, and/or Complex", Bullet2: "Created an application to show the usage and setup process for the above API’s", Bullet3: "Formatted application with comments so it can be used as an instructive aid", LinkTitle: "Template Link", Link: "https://github.com/Richard-McGhee/react-redux-react-router-template", image: templExample, alt: "Home page of template with 3 text sections and links"}
     ]
     const inProgress = [
-        {Company: "Personal", Title: "Dark JP Keyboard", Position: "Front End Developer", Bullet: "A Japanese keyboard in a dark theme for ease of use and visibility", Bullet2: "Unique because none exist online at the moment as only white bg boards exist unfortunately", Bullet3: "May implement customizable colors with hex options", LinkTitle: "Private for now", Link: "", image: p3x2, alt: "Placeholder"}
-        // {Company: "", Title: "", Position: "", Bullet: "", Bullet2: "", Bullet3: "", LinkTitle: "", Link: "", image: "", alt: ""}
+        {Company: "Personal", Title: "Dark JP Keyboard", Position: "Front End Developer", Bullet: "A Japanese keyboard in a dark theme for ease of use and visibility", Bullet2: "Unique because none exist online at the moment as only white bg boards exist unfortunately", Bullet3: "May implement customizable colors with hex options", LinkTitle: "Private for now", Link: "", image: p3x2, alt: "Placeholder"},
+        {Company: "Personal", Title: "Portfolio Site (This Site)", Position: "Front End Developer", Bullet: "A portfolio to show off my unique skills and experience", Bullet2: "Features to add:", Bullet3: "Possible carasoul", Bullet4: "Theme switch, maybe with hex choices", LinkTitle: "Home", Link: "/Home", image: p3x2, alt: "Placeholder"}
     ]
     return ( 
         <ProjectStyles>
