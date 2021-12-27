@@ -14,7 +14,7 @@ function App() {
         <Link to="/experience" className="navLinks">Work Experience</Link>
         <a href="https://docs.google.com/document/d/1xgglYDbWKPrKsmcCInK9Q2SH-794qSExtvFftkhPtmI/edit?usp=sharing" className="navLinks">Resume</a>
         <a href="https://github.com/Richard-McGhee" className="navLinks">Github</a>
-        <a href="https://www.linkedin.com/in/richardjmcghee/" classname="navLinks">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/richardjmcghee/" className="navLinks">LinkedIn</a>
       </nav>
       <Switch>
         <Route exact path="/" component={Home} />

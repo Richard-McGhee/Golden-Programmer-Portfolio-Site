@@ -7,17 +7,15 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    /* This may change later if I find a nicer font, maybe something with gold in the name  */
-    font-family: sans-serif;
+    font-family: 'Goldman', cursive;
     height: 60vh;
     padding-top: 2rem;
     border: 2px solid red;
 }
 
-.wordCloud div {
+.wordCloud span {
     position: relative;
     animation: enter 3s ease-in-out pulse 3s ease-in-out infinite;
-    /* This may change later if I find a nicer font, maybe something with gold in the name  */
     font-family: 'Goldman', cursive;
     animation-fill-mode: forwards;
     transition-timing-function: cubic-bezier(0.5, 1.5, 1.5, 1, 0.5);
@@ -25,25 +23,25 @@
     padding: -2rem 1rem;
 }
 
-.wordCloud div:nth-child(n) {
+.wordCloud span:nth-child(n) {
     transform: rotate(45deg);
 }
-.wordCloud div:nth-child(2n) {
+.wordCloud span:nth-child(2n) {
     transform: rotate(-40deg);
 }
-.wordCloud div:nth-child(3n) {
+.wordCloud span:nth-child(3n) {
     transform: rotate(-90deg);
 }
-.wordCloud div:nth-child(4n) {
+.wordCloud span:nth-child(4n) {
     transform: rotate(120deg);
 }
-.wordCloud div:nth-child(5n) {
+.wordCloud span:nth-child(5n) {
     transform: rotate(345deg);
 }
-.wordCloud div:nth-child(6n) {
+.wordCloud span:nth-child(6n) {
     transform: rotate(20deg);
 }
-.wordCloud div:nth-child(7n) {
+.wordCloud span:nth-child(7n) {
     transform: rotate(240deg);
 }
 
@@ -58,7 +56,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .word-cloud {
+    .wordCloud {
         height: 70%;
         width: 95%;
     }
