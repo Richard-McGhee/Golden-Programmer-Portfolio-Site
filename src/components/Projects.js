@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import cloudgif from '../assets/storycloud.gif'
-import heroku from '../assets/HerokuScreen.png'
-import templExample from '../assets/TemplateExample.png'
+import cloudgif3x2 from '../assets/storycloud3x2.gif'
+import heroku3x2 from '../assets/heroku3x2.png'
+import templExample3x2 from '../assets/template3x2.png'
 import p3x2 from '../assets/Placeholder3x2.png'
 
 const ProjectStyles = styled.div`
@@ -66,9 +66,9 @@ const ProjectStyles = styled.div`
 
 function Projects() {
     const myProjects = [
-        {Company: "Story Squad/Scribble Stadium", Title: "Story Squad/Scribble Stadium", Position: "Front End Developer", Bullet: "Innovative app for kids to read and write unique stories", Bullet2: "Created multiple components with React to render a dynamic Word Cloud feature", Bullet3: "As a stretch goal, created another component for a Crop Cloud of child’s writing", Bullet4: "Created a function for decoding base64 images from an API in any format", Bullet5: "Collaborated with data scientists to pull complexity metrics from fastAPI", LinkTitle: "N/A ATM", Link: "", image: cloudgif, alt: "animation of wordcloud"},
-        {Company: "Bloom Tech", Title: "Anywhere Fitness Team", Position: "Back End Developer", Bullet: "A signup application for instructors & clients for fitness classes at any location", Bullet2: "Created a server using NodeJS for the front end to connect with", Bullet3: "Used SQLite database to manage and store user information", Bullet4: "Deployed the server to Heroku for live use with the front end application", LinkTitle: "Heroku Deployment", Link: "https://fitness-collection.herokuapp.com and https://github.com/Anywhere-Fitness-Build-Week-1/Back-End", image: heroku, alt: "heroku page showing deployment"},
-        {Company: "Personal", Title: "React Redux Template", Position: "Front End Developer", Bullet: "A template for React projects using Redux, React Router, and/or Complex", Bullet2: "Created an application to show the usage and setup process for the above API’s", Bullet3: "Formatted application with comments so it can be used as an instructive aid", LinkTitle: "Template Link", Link: "https://github.com/Richard-McGhee/react-redux-react-router-template", image: templExample, alt: "Home page of template with 3 text sections and links"}
+        {Company: "Story Squad/Scribble Stadium", Title: "Story Squad/Scribble Stadium", Position: "Front End Developer", Bullet: "Innovative app for kids to read and write unique stories", Bullet2: "Created multiple components with React to render a dynamic Word Cloud feature", Bullet3: "As a stretch goal, created another component for a Crop Cloud of child’s writing", Bullet4: "Created a function for decoding base64 images from an API in any format", Bullet5: "Collaborated with data scientists to pull complexity metrics from fastAPI", LinkTitle: "N/A ATM", Link: "", image: cloudgif3x2, alt: "animation of wordcloud"},
+        {Company: "Bloom Tech", Title: "Anywhere Fitness Team", Position: "Back End Developer", Bullet: "A signup application for instructors & clients for fitness classes at any location", Bullet2: "Created a server using NodeJS for the front end to connect with", Bullet3: "Used SQLite database to manage and store user information", Bullet4: "Deployed the server to Heroku for live use with the front end application", LinkTitle: "Heroku Deployment", Link: "https://fitness-collection.herokuapp.com and https://github.com/Anywhere-Fitness-Build-Week-1/Back-End", image: heroku3x2, alt: "heroku page showing deployment"},
+        {Company: "Personal", Title: "React Redux Template", Position: "Front End Developer", Bullet: "A template for React projects using Redux, React Router, and/or Complex", Bullet2: "Created an application to show the usage and setup process for the above API’s", Bullet3: "Formatted application with comments so it can be used as an instructive aid", LinkTitle: "Template Link", Link: "https://github.com/Richard-McGhee/react-redux-react-router-template", image: templExample3x2, alt: "Home page of template with 3 text sections and links"}
     ]
     const inProgress = [
         {Company: "Personal", Title: "Dark JP Keyboard", Position: "Front End Developer", Bullet: "A Japanese keyboard in a dark theme for ease of use and visibility", Bullet2: "Unique because none exist online at the moment as only white bg boards exist unfortunately", Bullet3: "May implement customizable colors with hex options", LinkTitle: "Private for now", Link: "", image: p3x2, alt: "Placeholder"},
