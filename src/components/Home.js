@@ -28,6 +28,7 @@ const HomeStyles = styled.div`
         margin: 0 auto;
         width: 40%;
         border: 5px dashed #93032E;
+        border-radius: 10px;
     }
     .homeImgs img{
         height: 20vh;

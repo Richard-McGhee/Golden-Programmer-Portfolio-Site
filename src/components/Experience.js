@@ -21,12 +21,13 @@ const ExperienceStyles = styled.div`
         width: 60%;
         font-size: 2rem;
         text-align: center;
-        border: 2px dotted #F1FFFA;
+        border: 5px dotted #93032E;
     }
     
     /* Styling for experience area  */
     .expTitles{
         font-weight: bold;
+        color: #C8A659;
     }
     .pvtExpDiv, .mltryExpDiv{
         font-size: 1.5rem;

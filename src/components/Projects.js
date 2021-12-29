@@ -16,6 +16,7 @@ const ProjectStyles = styled.div`
     }
     .projTitles{
         font-weight: bold;  
+        color: #C8A659;
     }
     .bigWrapper{
         display: flex;
@@ -28,7 +29,7 @@ const ProjectStyles = styled.div`
         width: 60%;
         font-size: 2rem;
         text-align: center;
-        border: 2px dotted #F1FFFA;
+        border: 5px dotted #93032E;
     }
 
     /* Styling for images and project area  */
