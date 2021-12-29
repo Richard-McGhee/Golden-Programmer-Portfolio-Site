@@ -6,6 +6,7 @@ import gold from '../assets/Gold.avif'
 import progBall from '../assets/ProgrammingBall.jpg'
 
 const HomeStyles = styled.div`
+    /* Title and Bio Styling  */
     .titleDiv{
         width: 15%;
         display: flex;
@@ -21,6 +22,8 @@ const HomeStyles = styled.div`
         width: 30%;
         font-size: 1.4rem;
     }
+
+    /* Styling for images and image area */
     .homeImgs{
         margin: 0 auto;
         width: 40%;
@@ -30,6 +33,8 @@ const HomeStyles = styled.div`
         height: 20vh;
         margin: 1.5% 0 1% 2%;
     }
+
+    /* Media Queries */
 `
 
 function Home() {

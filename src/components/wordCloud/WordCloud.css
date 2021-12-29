@@ -23,6 +23,7 @@
     padding: -2rem 1rem;
 }
 
+/* Let's the words have a more dynamic rotation  */
 .wordCloud span:nth-child(n) {
     transform: rotate(45deg);
 }

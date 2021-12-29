@@ -2,12 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ExperienceStyles = styled.div`
+    /* Title and header styling  */
     .titleDiv{
         width: 15%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
+    }
+    .expH1{
+        margin: 20px auto;
+        width: 30%;
+        border: 2px solid #F1FFFA;
     }
     p{
         margin: 0 auto;
@@ -17,17 +23,16 @@ const ExperienceStyles = styled.div`
         text-align: center;
         border: 2px dotted #F1FFFA;
     }
-    .expH1{
-        margin: 20px auto;
-        width: 30%;
-        border: 2px solid #F1FFFA;
+    
+    /* Styling for experience area  */
+    .expTitles{
+        font-weight: bold;
     }
     .pvtExpDiv, .mltryExpDiv{
         font-size: 1.5rem;
     }
-    .expTitles{
-        font-weight: bold;
-    }
+
+    /* Media Queries */    
 `
 function Experience() {
     const pvtExp = [

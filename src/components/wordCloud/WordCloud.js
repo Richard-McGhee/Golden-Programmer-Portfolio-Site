@@ -3,7 +3,6 @@ import useWindowDimensions from './WindowDimensions'
 import "./WordCloud.css"
 
 function WordCloud() {
-    // I'll have my skills randomly generate to form a wordcloud with
     const skills = [
         {word: "JavaScript", weight: 0.0185}, 
         {word: "React/Redux", weight: 0.0186}, 

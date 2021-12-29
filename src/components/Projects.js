@@ -6,6 +6,7 @@ import templExample3x2 from '../assets/template3x2.png'
 import p3x2 from '../assets/Placeholder3x2.png'
 
 const ProjectStyles = styled.div`
+    /* title and header styling  */
     .titleDiv{
         width: 15%;
         display: flex;
@@ -21,10 +22,19 @@ const ProjectStyles = styled.div`
         align-items: center;
         flex-direction: column;
     }
+    p{
+        margin: 0 auto 1% auto;
+        padding: 25px 0;
+        width: 60%;
+        font-size: 2rem;
+        text-align: center;
+        border: 2px dotted #F1FFFA;
+    }
+
+    /* Styling for images and project area  */
     .imgWrapper{
         display: flex;
         align-items: center;
-        /* border: 2px solid green; */
         width: 100%;
     }
     .imgWrapper img{
@@ -54,14 +64,8 @@ const ProjectStyles = styled.div`
         width: 30%;
         border: 2px solid #F1FFFA;
     }
-    p{
-        margin: 0 auto 1% auto;
-        padding: 25px 0;
-        width: 60%;
-        font-size: 2rem;
-        text-align: center;
-        border: 2px dotted #F1FFFA;
-    }
+
+/* Media Queries */    
 `
 
 function Projects() {
