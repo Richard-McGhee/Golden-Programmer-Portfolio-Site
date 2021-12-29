@@ -33,7 +33,22 @@ const ExperienceStyles = styled.div`
         font-size: 1.5rem;
     }
 
-    /* Media Queries */    
+    /* Media Queries */
+
+    /* Laptops */
+    @media (max-width: 1024px){
+
+    }
+
+    /* Tablets */
+    @media (max-width: 768px){
+
+    }
+
+    /* Mobile */
+    @media (max-width: 480px){
+
+    }   
 `
 function Experience() {
     const pvtExp = [

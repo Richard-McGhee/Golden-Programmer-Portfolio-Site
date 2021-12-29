@@ -66,7 +66,22 @@ const ProjectStyles = styled.div`
         border: 2px solid #F1FFFA;
     }
 
-/* Media Queries */    
+    /* Media Queries */
+
+    /* Laptops */
+    @media (max-width: 1024px){
+
+    }
+
+    /* Tablets */
+    @media (max-width: 768px){
+
+    }
+
+    /* Mobile */
+    @media (max-width: 480px){
+
+    }    
 `
 
 function Projects() {

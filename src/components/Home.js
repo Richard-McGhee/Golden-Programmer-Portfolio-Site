@@ -36,6 +36,21 @@ const HomeStyles = styled.div`
     }
 
     /* Media Queries */
+
+    /* Laptops */
+    @media (max-width: 1024px){
+
+    }
+
+    /* Tablets */
+    @media (max-width: 768px){
+
+    }
+
+    /* Mobile */
+    @media (max-width: 480px){
+
+    }
 `
 
 function Home() {
