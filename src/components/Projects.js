@@ -111,7 +111,7 @@ function Projects() {
             </p>
             <div className="bigWrapper">
                 {myProjects.map(proj => (
-                    <div className="imgWrapper">
+                    <div className="imgWrapper" key={proj.Title}>
                         <img src={proj.image} alt={proj.alt} />
                         <div className="projDiv">
                             <a href={proj.Link} className="projLinks">{proj.LinkTitle}<br /></a><br />
@@ -128,7 +128,7 @@ function Projects() {
             <h1 className="inProgH1">In Progress</h1>
             <div className="bigWrapper">
                 {inProgress.map(proj => (
-                    <div className="imgWrapper">
+                    <div className="imgWrapper" key={proj.Title}>
                         <img src={proj.image} alt={proj.alt} />
                         <div className="inProgDiv">
                             <a href={proj.Link} className="projLinks">{proj.LinkTitle}<br /></a><br />

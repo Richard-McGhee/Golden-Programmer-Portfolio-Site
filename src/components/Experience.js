@@ -76,7 +76,7 @@ function Experience() {
             </p>
             <h1 className="expH1">Private Experience</h1>
             {pvtExp.map(exp => (
-                <div className="pvtExpDiv">
+                <div className="pvtExpDiv" key={exp.Company}>
                     <div className="expTitles">Company: {exp.Company}</div>
                     <div className="expTitles">Title: {exp.Title}</div>
                     <div>Dates: {exp.Dates}</div>
@@ -89,7 +89,7 @@ function Experience() {
             <br />
             <h1 className="expH1">Military Experience</h1>
             {mltryExp.map(exp => (
-                <div className="mltryExpDiv">
+                <div className="mltryExpDiv" key={exp.USMC}>
                     <div className="expTitles">Job: {exp.USMC}</div>
                     <div className="expTitles">Title: {exp.Title}</div>
                     <div>- {exp.Job}<br />- {exp.Job2}<br />- {exp.Job3}</div>

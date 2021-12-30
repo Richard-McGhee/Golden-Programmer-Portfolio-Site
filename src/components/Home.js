@@ -56,7 +56,9 @@ const HomeStyles = styled.div`
 
     /* Tablets */
     @media (max-width: 768px){
-
+        .bioDiv{
+            width: 60%;
+        }
     }
 
     /* Mobile */
