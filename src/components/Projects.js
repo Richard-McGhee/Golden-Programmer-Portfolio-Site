@@ -87,6 +87,7 @@ const ProjectStyles = styled.div`
     @media (max-width: 480px){
         p{
             font-size: 1.6rem;
+            margin-bottom: 2%;
         }
         .imgWrapper{
             flex-direction: column;

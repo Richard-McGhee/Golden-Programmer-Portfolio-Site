@@ -52,7 +52,9 @@ const ExperienceStyles = styled.div`
 
     /* Mobile */
     @media (max-width: 480px){
-
+        .expH1{
+            border: none;
+        }
     }   
 `
 function Experience() {
