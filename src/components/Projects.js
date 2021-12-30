@@ -70,7 +70,12 @@ const ProjectStyles = styled.div`
 
     /* Laptops */
     @media (max-width: 1024px){
-
+        .titleDiv{
+            margin: 0 auto;
+        }
+        .titleH1{
+            display: none;
+        }
     }
 
     /* Tablets */
@@ -97,7 +102,7 @@ function Projects() {
     return ( 
         <ProjectStyles>
             <div className="titleDiv">
-                <h1>Projects</h1>
+                <h1 className="titleH1">Projects</h1>
                 <h2>Richard McGhee</h2>
             </div>
             <h1 className="projectH1">Projects</h1>

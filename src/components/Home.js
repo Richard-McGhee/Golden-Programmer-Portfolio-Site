@@ -39,7 +39,19 @@ const HomeStyles = styled.div`
 
     /* Laptops */
     @media (max-width: 1024px){
-
+        .titleDiv{
+            margin: 0 auto;
+        }
+        .homeImgs{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+            display: none;
+        }
     }
 
     /* Tablets */

@@ -37,7 +37,12 @@ const ExperienceStyles = styled.div`
 
     /* Laptops */
     @media (max-width: 1024px){
-
+        .titleDiv{
+            margin: 0 auto;
+        }
+        .titleH1{
+            display: none;
+        }
     }
 
     /* Tablets */
@@ -63,7 +68,7 @@ function Experience() {
     return ( 
         <ExperienceStyles>
             <div className="titleDiv">
-                <h1>Experience</h1>
+                <h1 className="titleH1">Experience</h1>
                 <h2>Richard McGhee</h2>
             </div>
             <p className="expIntro">
