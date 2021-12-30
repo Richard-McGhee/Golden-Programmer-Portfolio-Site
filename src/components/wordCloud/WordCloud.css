@@ -10,6 +10,7 @@
     font-family: 'Goldman', cursive;
     height: 60vh;
     padding-top: 2rem;
+    /* Border for Testing */
     border: 2px solid red;
 }
 
@@ -19,6 +20,7 @@
     font-family: 'Goldman', cursive;
     animation-fill-mode: forwards;
     transition-timing-function: cubic-bezier(0.5, 1.5, 1.5, 1, 0.5);
+    /* Temporarily set at 1 because animation is broken and it's not visible otherwise */
     opacity: 1;
     padding: -2rem 1rem;
 }
