@@ -85,7 +85,22 @@ const ProjectStyles = styled.div`
 
     /* Mobile */
     @media (max-width: 480px){
-
+        p{
+            font-size: 1.6rem;
+        }
+        .imgWrapper{
+            flex-direction: column;
+        }
+        .imgWrapper img{
+            width: 60%;
+        }
+        .projDiv, .inProgDiv{
+            width: 60%;
+            font-size: 1.25rem;
+        }
+        .projectH1, .inProgH1{
+            border: none;
+        }
     }    
 `
 

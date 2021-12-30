@@ -63,7 +63,19 @@ const HomeStyles = styled.div`
 
     /* Mobile */
     @media (max-width: 480px){
-
+        .titleDiv{
+            margin: 0 auto;
+        }
+        .homeImgs{
+            margin: 0 auto;
+            border: none;
+        }
+        .homeImgs img{
+            margin: 0 auto;
+        }
+        h2{
+            display: none;
+        }
     }
 `
 
