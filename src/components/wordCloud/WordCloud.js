@@ -73,7 +73,7 @@ function WordCloud() {
                 let left = width * Math.random()
                 let top = height * Math.random()
                 return (
-                    <span key={idx} style={{
+                    <div key={idx} style={{
                         // This lets the color and other features generate randomly
                         color: generateColor(),
                         fontSize: `calc(2rem * (${skill.weight} * 100) + 1vw)`,
@@ -81,7 +81,7 @@ function WordCloud() {
                         top: Math.random() < 0.5 ? `-${top}px` : `${top}px`
                     }}>
                         <p>{skill.word}</p>
-                    </span>
+                    </div>
                 )
             })}
         </div>

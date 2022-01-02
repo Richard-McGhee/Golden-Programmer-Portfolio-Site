@@ -14,7 +14,7 @@
     border: 2px solid red;
 }
 
-.wordCloud span {
+.wordCloud div {
     position: relative;
     animation: enter 3s ease-in-out pulse 3s ease-in-out infinite;
     font-family: 'Goldman', cursive;
@@ -26,25 +26,25 @@
 }
 
 /* Let's the words have a more dynamic rotation  */
-.wordCloud span:nth-child(n) {
+.wordCloud div:nth-child(n) {
     transform: rotate(45deg);
 }
-.wordCloud span:nth-child(2n) {
+.wordCloud div:nth-child(2n) {
     transform: rotate(-40deg);
 }
-.wordCloud span:nth-child(3n) {
+.wordCloud div:nth-child(3n) {
     transform: rotate(-90deg);
 }
-.wordCloud span:nth-child(4n) {
+.wordCloud div:nth-child(4n) {
     transform: rotate(120deg);
 }
-.wordCloud span:nth-child(5n) {
+.wordCloud div:nth-child(5n) {
     transform: rotate(345deg);
 }
-.wordCloud span:nth-child(6n) {
+.wordCloud div:nth-child(6n) {
     transform: rotate(20deg);
 }
-.wordCloud span:nth-child(7n) {
+.wordCloud div:nth-child(7n) {
     transform: rotate(240deg);
 }
 
