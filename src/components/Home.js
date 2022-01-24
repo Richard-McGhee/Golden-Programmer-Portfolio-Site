@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import me from '../assets/me.jpg'
 import gold from '../assets/Gold.avif'
 import progBall from '../assets/ProgrammingBall.jpg'
-import placeHolder from '../assets/Placeholder3x2.png'
+import placeHolder from '../assets/Placeholder.png'
 
 const HomeStyles = styled.div`
     /* Title and Bio Styling  */
